@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="e.preventDefault()">
+            <p>First Name</p>
+            <input type="text" id="name" placeholder="First Name">
+            <p>Last Name</p>
+            <input type="text" id="lname" placeholder="Last Name">
+            <p>Gender</p>
+            <select id="gen" name="Gender">
+                <option value="None" selected>None</option>
+                <option value="Male">Male</option>
+                <option value="Felame">Female</option>
+            </select>
+            <p>Mobile Number</p>
+            <input type="tel" id="number" placeholder="+91" pattern="[0-9]{10}">
+            <p>EmailId</p>
+            <input type="email" id="mail">
+            <div id="btn">
+                <!-- <button type="button" onclick="get()">Submit</button> -->
+                <input type="button" onclick="get()" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

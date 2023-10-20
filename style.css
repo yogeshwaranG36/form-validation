@@ -1,0 +1,52 @@
+.container
+{   
+    background-color: rgba(243, 245, 239, 0.504);
+    display: grid;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: min(510px,510px);
+    top: 1.5em;
+    border-radius: 3px;
+    box-shadow: 10px 10px;
+    opacity: 60%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+div
+{
+    padding-bottom: 9px;
+    font-size: large;
+}
+input,#gen
+{
+    /* padding-left: 29px; */
+    outline: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-left: 15px;
+    border:none;
+    font-size: large;
+    color: blue;
+}
+p
+{
+    margin-left: 15px;
+    color: red
+}
+#btn
+{
+    width: 90px;
+    padding-left: 370px;
+}
+body
+{
+    background-image: url("/img/img1.jpg");
+}
